@@ -17,3 +17,11 @@ Example setup:
 Internet Gateway
 Route Tables
 NAT Gateway (optional for private subnet internet access)
+
+
+A VPC allows you to:
+
+Control IP addressing
+Create public and private subnets
+Configure routing
+Improve security and network isolation
