@@ -41,6 +41,26 @@ Step 3:  Create Subnets
   Name: BeeQ_Public_Subnet
  Availability Zone:			us-east-2a
  CIDR			              10.0.4.0/24
+
+Create Subnets
+1. Create Private Subnet
+
+Private subnets do not allow direct internet access.
+
+Configuration	Value
+Name	BeeQ_Pri_Subnet
+Availability Zone	us-east-2b
+CIDR Block	10.0.3.0/24
+2. Create Public Subnet
+
+Public subnets allow direct internet access.
+
+Configuration	Value
+Name	BeeQ_Public_Subnet
+Availability Zone	us-east-2a
+CIDR Block	10.0.4.0/24
+
+
 ________________________________________
 Step 4: Create an Internet Gateway and attach it to the VPC.
 An Internet Gateway allows communication between the VPC and the internet.
