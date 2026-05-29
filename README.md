@@ -26,7 +26,10 @@ Name tag                   	         BeeQVPC
 IPv4 CIDR block	         10.0.0.0/16
 Tenancy	          Default
 ________________________________________
-Step 3: Create Public Subnets
+Step 3:  SUBNETS
+<img width="1896" height="637" alt="image" src="https://github.com/user-attachments/assets/8599023a-c244-4a96-a6cf-80f412155689" />
+
+Create Public Subnets
 Private Subnet 1 (Private subnets do not allow direct internet access.)
 Setting                     	    Value
 Name                      	    BeeQ_Pri_Subnet
