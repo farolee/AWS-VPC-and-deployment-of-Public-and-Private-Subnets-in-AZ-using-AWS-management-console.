@@ -58,13 +58,13 @@ ________________________________________
 Step 6: (Optional) Create NAT Gateway
 A NAT Gateway allows private subnet resources to access the internet securely. Deploy the NAT Gateway in the public subnet (BeeQ_Public_Subnet).
 Steps
-1.	Go to NAT Gateways 
+1.	Go to NAT Gateways :  BeeQ_NAT_GateWay
 2.	Click Create NAT Gateway. 
 3.	Select: Public subnet 
 4.	Allocate Elastic IP 
 ________________________________________
 Step 7: Update Private Route Table
-Add route:
+Add route: 
 Destination	Target
 0.0.0.0/0	NAT Gateway
 Now private subnet instances can access the internet for updates and downloads.
