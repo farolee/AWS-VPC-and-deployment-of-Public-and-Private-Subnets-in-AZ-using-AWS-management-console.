@@ -29,28 +29,30 @@ ________________________________________
 
 Step 3:  Create Subnets
 
-<img width="1896" height="637" alt="image" src="https://github.com/user-attachments/assets/8599023a-c244-4a96-a6cf-80f412155689" />
-
-
-•	Create Private Subnet (Private subnets do not allow direct internet access)
-•	Configuration	Value
-•	Name	BeeQ_Pri_Subnet
-•	Availability Zone	us-east-2b
-•	CIDR Block	10.0.3.0/24
+a. Create Private Subnet (Private subnets do not allow direct internet access)
+b.	Configuration	Value
+c.	Name	BeeQ_Pri_Subnet
+d.	Availability Zone	us-east-2b
+e.	CIDR Block	10.0.3.0/24
 ________________________________________
 Create Public Subnet (Public subnets allow direct internet access)
-•Configuration	Value
-•Name	BeeQ_Public_Subnet
-•Availability Zone	us-east-2a
-•CIDR Block	10.0.4.0/24
+a. Configuration	Value
+b. Name	BeeQ_Public_Subnet
+c. Availability Zone	us-east-2a
+d. CIDR Block	10.0.4.0/24
 
+Public and Private Subnet
 
+<img width="1896" height="637" alt="image" src="https://github.com/user-attachments/assets/8599023a-c244-4a96-a6cf-80f412155689" />
 ________________________________________
 Step 4: Create an Internet Gateway and attach it to the VPC.
 An Internet Gateway allows communication between the VPC and the internet.
 1.	Click Create Internet Gateway. 
 2.	Name: IGW_BeeQ 
-3.	Click Attach to VPC. 
+3.	Click Attach to VPC.
+   Internet Gateway Attache to the VPC(BeeQVPC)
+   <img width="1895" height="592" alt="IGW_BeeQ" src="https://github.com/user-attachments/assets/71df25f4-48f7-4291-b78f-f3bed610e19b" />
+
 ________________________________________
 
 Step:5 Create a Route Table for Public Subnets and Private Subnets
