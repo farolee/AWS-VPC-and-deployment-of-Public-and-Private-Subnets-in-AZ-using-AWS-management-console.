@@ -6,7 +6,8 @@ A VPC allows you to:
 4.	Improve security and network isolation
 ________________________________________
 BeeQ LLC Final Reference Architecture.
-![Alt text](C:\Users\farol\Desktop\CV\BeeQ_Ref Github.jpg)
+<img width="1030" height="516" alt="BeeQ Ref Achitecture" src="https://github.com/user-attachments/assets/a0414d8b-bbd9-4b2b-8942-7a57d4892a60" />
+
 ________________________________________
 Step 1: Log in to AWS Console
 Go to the:  AWS Management Console
