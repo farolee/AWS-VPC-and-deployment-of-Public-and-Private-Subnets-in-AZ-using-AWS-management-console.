@@ -79,8 +79,8 @@ ________________________________________
 | S/N | Resources    |    Names            |     AWS ARN    |
 |-----|--------------|---------------------|----------------|
 | 1 | VPC            | BeeQVPC             | arn:aws:ec2:us-east-1:123456789012:vpc/vpc-0abc123def4567890
-| 2 | Private Subnet | BeeQ_Pri_Subnet     |                |
-| 3 | Public Subnet  | BeeQ_Public_Subnet  |                |
+| 2 | Private Subnet | BeeQ_Pri_Subnet     | arn:aws:ec2:us-east-2:954976289682:subnet/subnet-0e36577c61330fc3e              |
+| 3 | Public Subnet  | BeeQ_Public_Subnet  | arn:aws:ec2:us-east-2:954976289682:subnet/subnet-0ab40db5721b96cc9               |
 | 4 | Internet Gateway | IGW_BeeQ | |
 | 5 | NAT Gateway | BeeQ_NAT_GateWay | |
 | 6 | Public Route Table | BeeQ_Public_RT | |
