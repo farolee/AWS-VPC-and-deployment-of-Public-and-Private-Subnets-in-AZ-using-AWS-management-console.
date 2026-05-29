@@ -69,4 +69,12 @@ Destination	Target
 0.0.0.0/0	NAT Gateway
 Now private subnet instances can access the internet for updates and downloads.
 ________________________________________
+	Resources	Names	Values(ARN)
+1	VPC	BeeQVPC	
+2	Private Subnet	BeeQ_Pri_Subnet	
+3	Public Subnet	BeeQ_Public_Subnet	
+4	Internet Gateway	IGW_BeeQ	
+5	NAT Gateway	BeeQ_NAT_GateWay	
+6	Public Route Table	BeeQ_Public_RT	
+7	Private Route Table	BeeQ_Private_RT	
 
