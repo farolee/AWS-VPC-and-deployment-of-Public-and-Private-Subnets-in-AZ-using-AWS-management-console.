@@ -32,12 +32,12 @@ Step 3:  Create Subnets
 <img width="1896" height="637" alt="image" src="https://github.com/user-attachments/assets/8599023a-c244-4a96-a6cf-80f412155689" />
 
 
- Create Private Subnet
-Private subnets do not allow direct internet access.
-Configuration	Value
-Name	BeeQ_Pri_Subnet
-Availability Zone	us-east-2b
-CIDR Block	10.0.3.0/24
+•	Create Private Subnet
+    Private subnets do not allow direct internet access.
+•	Configuration	Value
+•	Name	BeeQ_Pri_Subnet
+•	Availability Zone	us-east-2b
+•	CIDR Block	10.0.3.0/24
 ________________________________________
 Create Public Subnet
 Public subnets allow direct internet access.
