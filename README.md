@@ -4,6 +4,7 @@ A VPC allows you to:
 2.	Create public and private subnets 
 3.	Configure routing 
 4.	Improve security and network isolation
+5.	Deploy in us-east-2
 ________________________________________
 BeeQ LLC Final Reference Architecture.
 <img width="1030" height="516" alt="BeeQ Ref Achitecture" src="https://github.com/user-attachments/assets/a0414d8b-bbd9-4b2b-8942-7a57d4892a60" />
@@ -29,12 +30,12 @@ Step 3: Create Public Subnets
 Private Subnet 1 (Private subnets do not allow direct internet access.)
 Setting                     	    Value
 Name                      	    BeeQ_Pri_Subnet
-Availability Zone	    us-east-1a
+Availability Zone	    us-east-2b
 CIDR	    10.0.3.0/24
 Private Subnet 2 (Public subnets allow direct internet access.)
 Setting		  	Value  
 Name			BeeQ_Public_Subnet
-Availability Zone			us-east-1b
+Availability Zone			us-east-2a
 CIDR			10.0.4.0/24
 ________________________________________
 Step 4: Create an Internet Gateway and attach it to the VPC.
@@ -69,21 +70,12 @@ Destination	Target
 0.0.0.0/0	NAT Gateway
 Now private subnet instances can access the internet for updates and downloads.
 ________________________________________
-	Resources	                      Names	      Values(ARN)
-1	VPC	BeeQVPC	
-2	Private Subnet	               BeeQ_Pri_Subnet	
-3	Public Subnet	               BeeQ_Public_Subnet	
-4	Internet Gateway	            IGW_BeeQ	
-5	NAT Gateway	                  BeeQ_NAT_GateWay	
-6	Public Route Table	           BeeQ_Public_RT	
-7	Private Route Table	           BeeQ_Private_RT	
-
 
 # AWS VPC Resources Table
 
 | S/N | Resources    |    Names            |     AWS ARN    |
 |-----|--------------|---------------------|----------------|
-| 1 | VPC | BeeQVPC  |                     |
+| 1 | VPC            | BeeQVPC             | arn:aws:ec2:us-east-1:123456789012:vpc/vpc-0abc123def4567890
 | 2 | Private Subnet | BeeQ_Pri_Subnet     |                |
 | 3 | Public Subnet  | BeeQ_Public_Subnet  |                |
 | 4 | Internet Gateway | IGW_BeeQ | |
